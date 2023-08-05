@@ -9,9 +9,12 @@
     },
     "ghcr.io/devcontainers-contrib/features/angular-cli:2": {}
   },
-  "forwardPorts": [5001, 5000, 49153],
+  "forwardPorts": [5001, 5000, 44433, 49153],
   "portsAttributes": {
     "5001": {
+      "protocol": "https"
+    },
+    "44433": {
       "protocol": "https"
     }
   },
